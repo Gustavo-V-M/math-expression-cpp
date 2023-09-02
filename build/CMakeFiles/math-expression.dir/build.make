@@ -83,17 +83,49 @@ CMakeFiles/math-expression.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/math-expression.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gustavo/Documents/projects/math-expression-parser/src/main.cpp -o CMakeFiles/math-expression.dir/main.cpp.s
 
+CMakeFiles/math-expression.dir/CheckOrder.cpp.o: CMakeFiles/math-expression.dir/flags.make
+CMakeFiles/math-expression.dir/CheckOrder.cpp.o: /home/gustavo/Documents/projects/math-expression-parser/src/CheckOrder.cpp
+CMakeFiles/math-expression.dir/CheckOrder.cpp.o: CMakeFiles/math-expression.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gustavo/Documents/projects/math-expression-parser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/math-expression.dir/CheckOrder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/math-expression.dir/CheckOrder.cpp.o -MF CMakeFiles/math-expression.dir/CheckOrder.cpp.o.d -o CMakeFiles/math-expression.dir/CheckOrder.cpp.o -c /home/gustavo/Documents/projects/math-expression-parser/src/CheckOrder.cpp
+
+CMakeFiles/math-expression.dir/CheckOrder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/math-expression.dir/CheckOrder.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gustavo/Documents/projects/math-expression-parser/src/CheckOrder.cpp > CMakeFiles/math-expression.dir/CheckOrder.cpp.i
+
+CMakeFiles/math-expression.dir/CheckOrder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/math-expression.dir/CheckOrder.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gustavo/Documents/projects/math-expression-parser/src/CheckOrder.cpp -o CMakeFiles/math-expression.dir/CheckOrder.cpp.s
+
+CMakeFiles/math-expression.dir/Variable.cpp.o: CMakeFiles/math-expression.dir/flags.make
+CMakeFiles/math-expression.dir/Variable.cpp.o: /home/gustavo/Documents/projects/math-expression-parser/src/Variable.cpp
+CMakeFiles/math-expression.dir/Variable.cpp.o: CMakeFiles/math-expression.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gustavo/Documents/projects/math-expression-parser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/math-expression.dir/Variable.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/math-expression.dir/Variable.cpp.o -MF CMakeFiles/math-expression.dir/Variable.cpp.o.d -o CMakeFiles/math-expression.dir/Variable.cpp.o -c /home/gustavo/Documents/projects/math-expression-parser/src/Variable.cpp
+
+CMakeFiles/math-expression.dir/Variable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/math-expression.dir/Variable.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gustavo/Documents/projects/math-expression-parser/src/Variable.cpp > CMakeFiles/math-expression.dir/Variable.cpp.i
+
+CMakeFiles/math-expression.dir/Variable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/math-expression.dir/Variable.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gustavo/Documents/projects/math-expression-parser/src/Variable.cpp -o CMakeFiles/math-expression.dir/Variable.cpp.s
+
 # Object files for target math-expression
 math__expression_OBJECTS = \
-"CMakeFiles/math-expression.dir/main.cpp.o"
+"CMakeFiles/math-expression.dir/main.cpp.o" \
+"CMakeFiles/math-expression.dir/CheckOrder.cpp.o" \
+"CMakeFiles/math-expression.dir/Variable.cpp.o"
 
 # External object files for target math-expression
 math__expression_EXTERNAL_OBJECTS =
 
 math-expression: CMakeFiles/math-expression.dir/main.cpp.o
+math-expression: CMakeFiles/math-expression.dir/CheckOrder.cpp.o
+math-expression: CMakeFiles/math-expression.dir/Variable.cpp.o
 math-expression: CMakeFiles/math-expression.dir/build.make
 math-expression: CMakeFiles/math-expression.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gustavo/Documents/projects/math-expression-parser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable math-expression"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gustavo/Documents/projects/math-expression-parser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable math-expression"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/math-expression.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/math-expression.dir/CheckOrder.cpp.o"
+  "CMakeFiles/math-expression.dir/CheckOrder.cpp.o.d"
+  "CMakeFiles/math-expression.dir/Variable.cpp.o"
+  "CMakeFiles/math-expression.dir/Variable.cpp.o.d"
   "CMakeFiles/math-expression.dir/main.cpp.o"
   "CMakeFiles/math-expression.dir/main.cpp.o.d"
   "math-expression"

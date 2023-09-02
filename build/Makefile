@@ -129,6 +129,54 @@ math-expression/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/math-expression.dir/build.make CMakeFiles/math-expression.dir/build
 .PHONY : math-expression/fast
 
+CheckOrder.o: CheckOrder.cpp.o
+.PHONY : CheckOrder.o
+
+# target to build an object file
+CheckOrder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/math-expression.dir/build.make CMakeFiles/math-expression.dir/CheckOrder.cpp.o
+.PHONY : CheckOrder.cpp.o
+
+CheckOrder.i: CheckOrder.cpp.i
+.PHONY : CheckOrder.i
+
+# target to preprocess a source file
+CheckOrder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/math-expression.dir/build.make CMakeFiles/math-expression.dir/CheckOrder.cpp.i
+.PHONY : CheckOrder.cpp.i
+
+CheckOrder.s: CheckOrder.cpp.s
+.PHONY : CheckOrder.s
+
+# target to generate assembly for a file
+CheckOrder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/math-expression.dir/build.make CMakeFiles/math-expression.dir/CheckOrder.cpp.s
+.PHONY : CheckOrder.cpp.s
+
+Variable.o: Variable.cpp.o
+.PHONY : Variable.o
+
+# target to build an object file
+Variable.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/math-expression.dir/build.make CMakeFiles/math-expression.dir/Variable.cpp.o
+.PHONY : Variable.cpp.o
+
+Variable.i: Variable.cpp.i
+.PHONY : Variable.i
+
+# target to preprocess a source file
+Variable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/math-expression.dir/build.make CMakeFiles/math-expression.dir/Variable.cpp.i
+.PHONY : Variable.cpp.i
+
+Variable.s: Variable.cpp.s
+.PHONY : Variable.s
+
+# target to generate assembly for a file
+Variable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/math-expression.dir/build.make CMakeFiles/math-expression.dir/Variable.cpp.s
+.PHONY : Variable.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... math-expression"
+	@echo "... CheckOrder.o"
+	@echo "... CheckOrder.i"
+	@echo "... CheckOrder.s"
+	@echo "... Variable.o"
+	@echo "... Variable.i"
+	@echo "... Variable.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

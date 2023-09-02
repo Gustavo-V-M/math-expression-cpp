@@ -1,5 +1,5 @@
-CMakeFiles/math-expression.dir/main.cpp.o: \
- /home/gustavo/Documents/projects/math-expression-parser/src/main.cpp \
+CMakeFiles/math-expression.dir/CheckOrder.cpp.o: \
+ /home/gustavo/Documents/projects/math-expression-parser/src/CheckOrder.cpp \
  /usr/include/stdc-predef.h \
  /home/gustavo/Documents/projects/math-expression-parser/src/../include/CheckOrder.hpp \
  /usr/include/c++/13.2.1/string \
@@ -102,10 +102,9 @@ CMakeFiles/math-expression.dir/main.cpp.o: \
  /usr/include/c++/13.2.1/cstddef \
  /usr/include/c++/13.2.1/bits/uses_allocator.h \
  /usr/include/c++/13.2.1/bits/uses_allocator_args.h \
- /usr/include/c++/13.2.1/tuple \
- /home/gustavo/Documents/projects/math-expression-parser/src/../include/Variable.hpp \
- /usr/include/c++/13.2.1/iostream /usr/include/c++/13.2.1/ostream \
- /usr/include/c++/13.2.1/ios /usr/include/c++/13.2.1/exception \
+ /usr/include/c++/13.2.1/tuple /usr/include/c++/13.2.1/iostream \
+ /usr/include/c++/13.2.1/ostream /usr/include/c++/13.2.1/ios \
+ /usr/include/c++/13.2.1/exception \
  /usr/include/c++/13.2.1/bits/exception_ptr.h \
  /usr/include/c++/13.2.1/bits/cxxabi_init_exception.h \
  /usr/include/c++/13.2.1/typeinfo \
@@ -139,4 +138,9 @@ CMakeFiles/math-expression.dir/main.cpp.o: \
  /usr/include/c++/13.2.1/bits/locale_facets.tcc \
  /usr/include/c++/13.2.1/bits/basic_ios.tcc \
  /usr/include/c++/13.2.1/bits/ostream.tcc /usr/include/c++/13.2.1/istream \
- /usr/include/c++/13.2.1/bits/istream.tcc
+ /usr/include/c++/13.2.1/bits/istream.tcc /usr/include/c++/13.2.1/stack \
+ /usr/include/c++/13.2.1/deque \
+ /usr/include/c++/13.2.1/bits/stl_uninitialized.h \
+ /usr/include/c++/13.2.1/bits/stl_deque.h \
+ /usr/include/c++/13.2.1/bits/deque.tcc \
+ /usr/include/c++/13.2.1/bits/stl_stack.h

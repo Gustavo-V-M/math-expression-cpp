@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/gustavo/Documents/projects/math-expression-parser/src/CheckOrder.cpp" "CMakeFiles/math-expression.dir/CheckOrder.cpp.o" "gcc" "CMakeFiles/math-expression.dir/CheckOrder.cpp.o.d"
+  "/home/gustavo/Documents/projects/math-expression-parser/src/Variable.cpp" "CMakeFiles/math-expression.dir/Variable.cpp.o" "gcc" "CMakeFiles/math-expression.dir/Variable.cpp.o.d"
   "/home/gustavo/Documents/projects/math-expression-parser/src/main.cpp" "CMakeFiles/math-expression.dir/main.cpp.o" "gcc" "CMakeFiles/math-expression.dir/main.cpp.o.d"
   )
 
