@@ -1,0 +1,1 @@
+/usr/bin/c++ "CMakeFiles/math-expression.dir/main.cpp.o" -o math-expression 
