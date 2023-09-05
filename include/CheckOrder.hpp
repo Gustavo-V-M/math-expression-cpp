@@ -5,6 +5,6 @@
 using namespace std;
 
 bool isCorrectOrder(string expression);
-bool isOpening(char current);
-char isClosing(char current);
+bool isOpeningSymbol(char current);
+char openingSymbolFrom(char current);
 #endif // CHECKORDER_H

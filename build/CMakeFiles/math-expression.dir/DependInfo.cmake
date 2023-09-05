@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/gustavo/Documents/projects/math-expression-parser/src/CheckOrder.cpp" "CMakeFiles/math-expression.dir/CheckOrder.cpp.o" "gcc" "CMakeFiles/math-expression.dir/CheckOrder.cpp.o.d"
   "/home/gustavo/Documents/projects/math-expression-parser/src/Variable.cpp" "CMakeFiles/math-expression.dir/Variable.cpp.o" "gcc" "CMakeFiles/math-expression.dir/Variable.cpp.o.d"
   "/home/gustavo/Documents/projects/math-expression-parser/src/main.cpp" "CMakeFiles/math-expression.dir/main.cpp.o" "gcc" "CMakeFiles/math-expression.dir/main.cpp.o.d"
+  "/home/gustavo/Documents/projects/math-expression-parser/src/toPrefix.cpp" "CMakeFiles/math-expression.dir/toPrefix.cpp.o" "gcc" "CMakeFiles/math-expression.dir/toPrefix.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

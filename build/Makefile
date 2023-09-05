@@ -201,6 +201,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/math-expression.dir/build.make CMakeFiles/math-expression.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+toPrefix.o: toPrefix.cpp.o
+.PHONY : toPrefix.o
+
+# target to build an object file
+toPrefix.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/math-expression.dir/build.make CMakeFiles/math-expression.dir/toPrefix.cpp.o
+.PHONY : toPrefix.cpp.o
+
+toPrefix.i: toPrefix.cpp.i
+.PHONY : toPrefix.i
+
+# target to preprocess a source file
+toPrefix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/math-expression.dir/build.make CMakeFiles/math-expression.dir/toPrefix.cpp.i
+.PHONY : toPrefix.cpp.i
+
+toPrefix.s: toPrefix.cpp.s
+.PHONY : toPrefix.s
+
+# target to generate assembly for a file
+toPrefix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/math-expression.dir/build.make CMakeFiles/math-expression.dir/toPrefix.cpp.s
+.PHONY : toPrefix.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,6 +243,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... toPrefix.o"
+	@echo "... toPrefix.i"
+	@echo "... toPrefix.s"
 .PHONY : help
 
 

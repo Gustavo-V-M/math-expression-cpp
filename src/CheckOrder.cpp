@@ -5,7 +5,7 @@
 
 using namespace std;
 
-bool isOpening(char current) {
+bool isOpeningSymbol(char current) {
   switch (current) {
   default:
     return false;
@@ -38,7 +38,7 @@ bool isCorrectOrder(string expression) {
   stack<char> variables_stack;
 
   for (int i; i < expression_length; ++i) {
-    if (isOpening(expression_arr[i])) {
+    if (isOpeningSymbol(expression_arr[i])) {
       variables_stack.push(expression_arr[i]);
     } else if (openingSymbolFrom(expression_arr[i]) != '\0') {
       if (variables_stack.empty() ||

@@ -1,1 +1,1 @@
-/usr/bin/c++ "CMakeFiles/math-expression.dir/main.cpp.o" "CMakeFiles/math-expression.dir/CheckOrder.cpp.o" "CMakeFiles/math-expression.dir/Variable.cpp.o" -o math-expression 
+/usr/bin/c++ "CMakeFiles/math-expression.dir/main.cpp.o" "CMakeFiles/math-expression.dir/CheckOrder.cpp.o" "CMakeFiles/math-expression.dir/Variable.cpp.o" "CMakeFiles/math-expression.dir/toPrefix.cpp.o" -o /home/gustavo/Documents/projects/math-expression-parser/bin/math-expression 
