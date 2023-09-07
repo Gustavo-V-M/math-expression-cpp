@@ -1,3 +1,4 @@
+#include "../include/toPostfix.hpp"
 #include "../include/CheckOrder.hpp"
 #include <cctype>
 #include <cmath>
@@ -34,7 +35,7 @@ bool isOperator(char current) {
   }
 }
 
-void toPrefix(string expression, stack<string> *final_expression) {
+void toPostfix(string expression, stack<string> *final_expression) {
   int expression_length = expression.size();
   stack<char> operators;
 
@@ -65,20 +66,36 @@ void toPrefix(string expression, stack<string> *final_expression) {
 
         if (!operators.empty() && priorityFromOperator(current_char) >
                                       priorityFromOperator(operators.top())) {
-          string aux;
-          aux = current_char;
-          final_expression->push(aux);
+          operators.push(current_char);
         }
 
         else {
           operators.push(current_char);
         }
       }
+
+      else if (isOpeningSymbol(current_char)) {
+        operators.push(current_char);
+
+      }
+
+      else {
+        while (!operators.empty() &&
+               openingSymbolFrom(current_char) != operators.top()) {
+          string aux;
+          aux = operators.top();
+          operators.pop();
+          final_expression->push(aux);
+        }
+        operators.pop();
+      }
     }
   }
+
   if (current_number != "") {
     final_expression->push(current_number);
   }
+
   while (!operators.empty()) {
     string aux;
     aux = operators.top();
